@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/**GLOBAL*/
+h1{
+    text-align: right;
+    font-size: 60px;
+    padding: 40px 50px 0 0;
+    color: #fff;
+}
+
+p{
+    color: #fff;
+}
+
+
+.section-page{
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*main-page*/
+.main{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/462/746/desktop-wallpaper-1400x900.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.main header{
+    height: 70%;
+}
+
+#name-dev{
+   margin-left: 50px;
+   padding-left: 10px;
+   width: 400px;
+   height: 120px;
+   font-size: 50px;
+   color: #fff;
+   background-color: #78afe7;
+   border-radius: 10px;
+}
+
+/*about-me*/
+.about-me{
+    background-color: #7299fe;
+    padding: 80px 40px 40px ;
+}
+
+.about-me h2{
+    text-align: center;
+    color: #1d06a7;
+    font-size: 40px;
+}
+.about-me div{
+    margin: 50px 10px 50px 10px;
+}
+
+.about-me input{
+    background-color: #d16eff;
+    border: none;
+    width: 180px;
+    height: 55px;
+    border-radius: 15px;
+    box-shadow: 0 3px 1px 0;
+}
+
+/*SKILLS*/
+
+.skills{
+    text-align: center;
+    padding: 80px 40px 40px ;
+    background-color: #9022ff;
+    color: #26cc4b;
+}
+
+.skills h2{
+    font-size: 50px;
+}
+
+#skills-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.skills-content{
+    width: 50%;
+    margin-top: 100px;
+    padding-right: 0 20px 0 20px;    
+}
+
+.skills-content h3{
+    text-align: left;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.skills-content div{
+    width: 90%;
+    background-color: #fff;
+    height: 25px;
+    display: flex;
+    align-items: left;
+    border-radius: 10px;
+}
+
+.skills-content div label{
+    border-radius: inherit;
+    background-color: #57eff9;
+}
+
+#html{
+    width: 75%;
+}
+
+#css{
+    width: 15%;
+}
+
+#javascript{
+    width: 50%;
+}
+
+#vue{
+    width: 85%;
+}
+
+#flex{
+    width: 90%;
+}
+
+#grid{
+    width: 40%;
+}
+
+
+/*PORTAFOLIO*/
+
+.portfolio{
+    color: #00ad84;
+    background-color: #ffd233;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.portfolio div{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.portfolio img{
+    width: 180px;
+    height: 140px;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 0 0;
+    align-items: center;
+    height: 400px;
+    background-color: #3f4e62;
+}
+.client h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #adff28;
+}
+
+.client img{
+    width: 220px;
+    height: 140px;
+    margin-left: 20px;
+}
+
+.contact{
+    background-color: #1687a0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact h2{
+    color: #ff1b1b;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    flex-wrap: wrap;
+    height: 400px;
+    margin-bottom: 80px;
+}
+
+.inp-contact{
+    width: 49%;
+    height: 65px;
+}
+.inp-direction{
+    width: 100%;
+    height: 120px;
+}
+
+form div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-enviar{
+    width: 120px;
+    height: 50px;
+    background-color: #233451;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
